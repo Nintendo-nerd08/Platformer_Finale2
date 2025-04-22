@@ -1,9 +1,10 @@
 package utilz;
 
+import main.Game;
 
 public class Constants {
 
-	public static float GRAVITY = 0.04f * Game.SCALE;
+	public static final float GRAVITY = 0.04f * Game.SCALE;
 	public static final int ANI_SPEED = 25;
 	
 	public static class Projectiles{
@@ -15,7 +16,7 @@ public class Constants {
 		public static final float SPEED = 0.75f * Game.SCALE;
 	}
 
-	public static class Game{
+	public static class Game {
 		public final static int TILES_DEFAULT_SIZE = 32;
 		public final static float SCALE = 2f;
 		public final static int TILES_IN_WIDTH = 26;
